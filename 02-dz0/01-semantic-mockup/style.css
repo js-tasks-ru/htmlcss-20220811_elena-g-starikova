@@ -1,0 +1,53 @@
+
+html body {
+    flex-direction: column;
+}
+header {
+    background-color: red;
+    margin: 0;
+    width: 100%;
+}
+h1 {
+    font-family: Roboto;
+    font-size: 300%; 
+    color: white; 
+    text-align: center; 
+    padding: 20px;
+}
+nav {
+    background-color: rgb(255, 162, 0); 
+    text-align: center;
+    height: 100%;
+}
+a {
+    font-family: Roboto; 
+    font-size: 200%; 
+    color: white; 
+    text-decoration: underline;
+    text-align: center;
+}
+main {
+   background-color: green; 
+   margin: 0;
+   width: 100%;
+   padding: 10px 0 10px 0;
+}
+article {
+    height: 50%; 
+    background-color: blue; 
+    margin: 0 10px 0 10px;
+    font-family: Roboto; 
+    font-size: 1em; 
+    color: white;
+}
+li {
+    font-family: Roboto; 
+    font-size: 0,5 em;
+    color: white;
+}              
+footer {
+    background-color: rgb(5, 5, 126);
+    margin: 0;
+    width: 100%;
+}
+
