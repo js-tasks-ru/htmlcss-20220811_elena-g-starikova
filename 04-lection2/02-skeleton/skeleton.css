@@ -1,0 +1,43 @@
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    padding: 24px 40px 32px 24px;
+}
+.skeleton__top {
+    background: var(--white);
+    display: flex;
+    justify-content: flex-start;
+}
+.skeleton__bottom {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.avatar {
+    background: var(--grey-2);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+.lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.line {
+    background: var(--grey-2);
+    height: 20px;
+}
+.line:short {
+    width: 172 px;
+}
+.line:middle {
+    width: 257px;
+}
+.line:long {
+    width: 515px;
+}
