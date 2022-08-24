@@ -1,7 +1,4 @@
-body {
-    text-align: center;
-    padding: 62px 0 62px;
-}
+
 .tooltip {
     position: relative;
     display: inline-block;
@@ -12,13 +9,11 @@ body {
 }
 .tooltip__trigger {
     width: 24px;
-    height: 24 px;
+    height: 24px;
     cursor: pointer;  
-    position: absolute;
-    transform: translateX(-50%);
 }
 .tooltip__trigger:hover ~.tooltip__helper {
-     display: block;
+    display: block;
 } 
 .tooltip__helper {
    
