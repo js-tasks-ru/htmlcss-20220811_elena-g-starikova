@@ -1,11 +1,11 @@
 body {
     text-align: center;
-    
+    padding: 62px 0 62px;
 }
 .tooltip {
     position: relative;
     display: inline-block;
-    /* padding: 62px 0 62px; */
+   
 }
 .tooltip__helper {
     display: none;
