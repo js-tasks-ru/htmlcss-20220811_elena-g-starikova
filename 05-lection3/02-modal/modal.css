@@ -1,0 +1,52 @@
+.button {
+    height: 48px;
+    border-radius: 8px;
+    text-align: center;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+    box-sizing: border-box;
+}
+.button_primary {
+    background: var(--primary);
+}
+.button_primary:hover ~ .modal {
+    display: block;
+}
+.wrapper {
+    position: absolute;
+    background: #C4C4C4;
+    opacity: 0.5;   
+    padding: 40px 40px 47px 40px; 
+}
+.modal {
+    background: var(--white);
+    position: relative;
+    padding-bottom: 100%;
+    padding: 30px 40px 33px 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: none;
+}
+.modal__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+    padding-bottom: 14px;
+}
+.modal__cross {
+    grid-area: 9 / 1;
+}
