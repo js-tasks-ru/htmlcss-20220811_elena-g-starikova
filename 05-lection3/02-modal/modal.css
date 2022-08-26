@@ -1,21 +1,7 @@
-.button {
-    height: 48px;
-    border-radius: 8px;
-    text-align: center;
-    font-style: normal;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: var(--white);
-    box-sizing: border-box;
-}
-.button_primary {
-    background: var(--primary);
-}
-.button_primary:hover ~ .modal {
+
+/* .button:hover ~ .modal {
     display: block;
-}
+} */
 .wrapper {
     position: absolute;
     background: #C4C4C4;
@@ -33,10 +19,6 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-4);
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    display: none;
 }
 .modal__title {
     font-family: 'Inter';
@@ -48,5 +30,5 @@
     padding-bottom: 14px;
 }
 .modal__cross {
-    grid-area: 9 / 1;
+    text-align: right;
 }
