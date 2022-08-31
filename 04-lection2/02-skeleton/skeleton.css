@@ -4,40 +4,46 @@
     justify-content: stretch;
     align-items: stretch;
     padding: 24px 40px 32px 24px;
+    gap: 32px;
 }
 .skeleton__top {
     background: var(--white);
     display: flex;
     justify-content: flex-start;
+    gap: 16px;
 }
 .skeleton__bottom {
     background: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 8px;
 }
-.avatar {
+.skeleton__avatar {
     background: var(--grey-2);
     border-radius: 50%;
     height: 64px;
     width: 64px;
+    
 }
-.lines {
+.skeleton__lines {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    flex-grow: 1;
+    gap: 8px;
 }
-.line {
+.skeleton__line {
     background: var(--grey-2);
     height: 20px;
 }
-.line:short {
-    width: 172 px;
+.skeleton__line_short {
+    width: 35%;
 }
-.line:middle {
-    width: 257px;
+.skeleton__line_middle {
+    width: 50%;
 }
-.line:long {
-    width: 515px;
+.skeleton__line_long {
+    width: 100%;
 }
