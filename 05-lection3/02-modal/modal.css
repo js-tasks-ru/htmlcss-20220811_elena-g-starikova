@@ -2,17 +2,20 @@
 /* .button:hover ~ .modal {
     display: block;
 } */
-.wrapper {
-    position: absolute;
-    background: #C4C4C4;
-    opacity: 0.5;   
-    padding: 40px 40px 47px 40px; 
-}
+
 .modal {
+    background: #C4C4C4;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    padding: 40px 40px 47px 40px;
+}
+.modal__window {
     background: var(--white);
-    position: relative;
-    padding-bottom: 100%;
-    padding: 30px 40px 33px 40px;
+    padding: 70px 80px 80px 80px;
+}
+.modal__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
