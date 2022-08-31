@@ -1,6 +1,6 @@
-.card__preview {
+/* .card__preview {
     padding: 19px 24px 24px 24px;
-}
+} */
 .histogram__title {
     font-family: 'Inter';
     font-style: normal;
@@ -31,12 +31,15 @@
     color: var(--primary);
 }
 .histogram {
-    height: 45px;
+    height: 50px;
+    margin-top: 39 px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: var(--white)
+    background: var(--white);
+    padding: 19px 24px 24px 24px;
 }
 .histogram__column {
-    background: var(--primery)
+    background: var(--primery);
+    flex-grow: 1;
 }
