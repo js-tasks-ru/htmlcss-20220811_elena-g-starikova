@@ -1,19 +1,21 @@
 
-/* .button:hover ~ .modal {
-    display: block;
-} */
 
 .modal {
-    background: #C4C4C4;
+    background: rgba(196, 196, 196, 1);
     opacity: 0.5;
     height: 100%;
     width: 100%;
     position: fixed;
-    padding: 40px 40px 47px 40px;
+    display: none;
 }
 .modal__window {
     background: var(--white);
-    padding: 70px 80px 80px 80px;
+    padding: 30px 40px 33px 40px;
+    position:absolute;
+    top: 40px;
+    right: 40px;
+    left: 40px;
+    bottom: 47px;
 }
 .modal__text {
     font-family: 'Inter';
@@ -33,5 +35,7 @@
     padding-bottom: 14px;
 }
 .modal__cross {
-    text-align: right;
+    Position: absolute;
+    top: 15px;
+    right: 15px;
 }
