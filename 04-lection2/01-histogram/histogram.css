@@ -1,6 +1,11 @@
-/* .card__preview {
+.histogram {
+    height: 50px;
+    margin-top: 39px;
+    display: flex;
+    background: var(--white);
     padding: 19px 24px 24px 24px;
-} */
+    flex-direction: column;
+}
 .histogram__title {
     font-family: 'Inter';
     font-style: normal;
@@ -10,6 +15,7 @@
     color: var(--black);
     opacity: 0.8;
     text-align: left;
+    align-self: flex-start;
 }
 .histogram__numbers {
     font-family: 'Inter';
@@ -19,7 +25,8 @@
     line-height: 26px;
     color: var(--black);
     text-align: left;
-    margin-top: 6px;
+    /* margin-top: 6px; */
+    align-self: flex-start;
 }
 .histogram__link {
     font-family: 'Inter';
@@ -29,15 +36,17 @@
     line-height: 24px;
     text-align: right;
     color: var(--primary);
+    align-self: flex-end;
 }
-.histogram {
-    height: 50px;
-    margin-top: 39 px;
+
+.histogram__chart {
+    align-self: center;
+    padding-top: 39px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background: var(--white);
-    padding: 19px 24px 24px 24px;
+    flex-wrap: wrap;
 }
 .histogram__column {
     background: var(--primery);
