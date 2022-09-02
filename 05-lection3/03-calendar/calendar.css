@@ -5,8 +5,9 @@
 }
 .calendar__title {
     position: absolute;
-    top: 28px;
-    right: 83px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -17,8 +18,8 @@
 .calendar__wrapper {
     position: relative;
     padding-bottom: 100%;
-    left: 34px;
-    top: 76px;
+    left: 10%;
+    top: 30%;
 }
 .calendar__inner {
     position: absolute;
@@ -32,6 +33,7 @@
     place-items: center;
 }
 .calendar__item {
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -55,8 +57,10 @@
     background: #A0B1F5;
     opacity: 0.2;   
     color: #334D6E;
+    place-self: stretch;
 }
 .calendar__item-ranger-end {
     background: #4263EB;
     color: var(--white);
+    place-self: stretch;
 }
