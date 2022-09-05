@@ -1,10 +1,10 @@
 .histogram {
-    height: 50px;
-    margin-top: 39px;
     display: flex;
     background: var(--white);
     padding: 19px 24px 24px 24px;
     flex-direction: column;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
 }
 .histogram-title__wrapper {
     display: flex;
@@ -42,9 +42,10 @@
     align-items: flex-end;
     flex-wrap: nowrap;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 39px;
+    gap: 1px;
 }
 .histogram__column {
-    background: var(--primery);
+    background: var(--primary);
     flex-grow: 1;
 }
