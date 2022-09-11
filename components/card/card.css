@@ -22,6 +22,7 @@
 .card__preview {
     background: var(--white);
     height: 157px;
+    padding: 19px 24px 24px 24px;
 }
 .card__subtitle{
     font-family: 'Roboto';
