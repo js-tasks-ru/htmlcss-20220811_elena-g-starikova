@@ -2,3 +2,46 @@
     padding: 71px 0 136px;
     background-color: var(--white);
 }
+.footer__text {
+    position: absolute;
+    width: 640px;
+    height: 96px;
+    left: 417px;
+    top: 1425px;
+
+    /* p */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #212429;
+}
+.footer__title {
+    position: absolute;
+    width: 111px;
+    height: 48px;
+    left: 682px;
+    top: 1345px;
+
+    /* h2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+
+
+    /* Black */
+
+    color: #212429;
+}
