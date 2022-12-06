@@ -1,6 +1,8 @@
 .sidebar {
     display: grid;
     grid-template-rows: auto 1fr auto;
+    padding-left: 165px;
+    padding-top: 36px;
 }
 .sidebar__title {
     font-family: 'Inter';
@@ -11,7 +13,10 @@
     color: #000000;
 }
 .sidebar__menu {
-    grid-template-rows: repeat(6, 30px);
+    display: flex;
+    flex-direction: column;
+    column-gap: 4px;
+    padding-top: 16px;
 }
 .sidebar__item {
     font-family: 'Inter';
@@ -29,7 +34,8 @@
     font-size: 14px;
     line-height: 22px;
     text-decoration: none;
+    padding-top: 40px;
 }
-.component {
+.card__inner {
     background: rgb(44, 66, 126);
 }
