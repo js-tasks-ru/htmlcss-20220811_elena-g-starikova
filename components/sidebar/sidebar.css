@@ -1,8 +1,6 @@
 .sidebar {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    padding-left: 165px;
-    padding-top: 36px;
 }
 .sidebar__title {
     font-family: 'Inter';

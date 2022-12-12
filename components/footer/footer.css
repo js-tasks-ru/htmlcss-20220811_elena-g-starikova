@@ -2,16 +2,9 @@
     padding: 71px 0 136px;
     background-color: var(--white);
     height: 200px;
+    position: relative;
 }
 .footer__text {
-    position: absolute;
-    width: 640px;
-    height: 96px;
-    left: 417px;
-    top: 1425px;
-
-    /* p */
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -26,12 +19,6 @@
     color: #212429;
 }
 .footer__title {
-    position: absolute;
-    width: 111px;
-    height: 48px;
-    left: 682px;
-    top: 1345px;
-
     /* h2 */
 
     font-family: 'Inter';
@@ -46,12 +33,11 @@
 
     color: #212429;
 }
-.footer__template {
+.footer_inner {
     background-color: #E5E5E5;
-    position: relative;
     
 }
-.footer__h5 {
+.footer__smalltext {
     position: absolute;
     font-family: 'Inter';
     font-style: normal;
