@@ -43,3 +43,8 @@
     border: 10px solid transparent;
     border-top: 10px solid #4263EB;
 }
+.tooltip__icon {
+    fill: #212429;
+    width: 24px;
+    height: 24px;
+}
