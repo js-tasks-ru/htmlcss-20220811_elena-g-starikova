@@ -1,0 +1,36 @@
+.sidebar {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.sidebar__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    column-gap: 4px;
+    padding-top: 16px;
+}
+.sidebar__item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+    text-decoration: none;
+}
+.sidebar__main-page-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    padding-top: 40px;
+}
