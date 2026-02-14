@@ -1,4 +1,57 @@
 .footer {
     padding: 71px 0 136px;
     background-color: var(--white);
+    height: 200px;
+    position: relative;
+}
+.footer__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #212429;
+}
+.footer__title {
+    /* h2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+
+
+    /* Black */
+
+    color: #212429;
+}
+.footer_inner {
+    background-color: #E5E5E5;
+    
+}
+.footer__smalltext {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    /* Gray 3 */
+    color: #ACB5BD;
+    left: 50%; 
+    top:50%;
+    transform: translate (-50%, -50%);
 }
